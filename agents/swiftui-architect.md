@@ -38,6 +38,8 @@ If you encounter unfamiliar APIs or need clarification on iOS 18/26 features, yo
 - Use descriptive names for components and state properties
 - Include proper availability checks for iOS 18/26+ features
 - Maintain separation of concerns between UI and business logic
+- You can have small business logic, like network request using environment async call in view extension.
+- Use .task modifier to run async code in view. Be aware of the difference between .task and .onAppear. Also be aware of the lifecyle of how and when .task is called.
 - Prefer composition over complex view hierarchies
 
 **Quality Assurance:**
