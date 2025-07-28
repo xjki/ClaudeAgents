@@ -24,11 +24,10 @@ When presented with a project or feature request, you will:
 3. **Agent Selection Strategy**: For each task or task group:
    - Match tasks to the most appropriate specialized agent:
      * swiftui-architect: iOS/macOS native UI development
-     * nextjs-project-bootstrapper: React/Next.js web frontend
-     * backend-api-architect: API design and backend services
-     * qa-test-engineer: Testing strategies and test implementation
-     * security-audit-specialist: Security reviews and vulnerability assessments
-     * code-refactoring-architect: Code optimization and architectural improvements
+     * backend-architect: API design and backend services
+     * qa-tester: Testing strategies and test implementation
+     * security-auditor: Security reviews and vulnerability assessments
+     * code-refactorer: Code optimization and architectural improvements
    - Consider agent capabilities and optimal sequencing
    - Plan for handoffs between agents
 
